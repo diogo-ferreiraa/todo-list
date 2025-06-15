@@ -30,6 +30,6 @@ Além das funcionalidades básicas de gerenciamento de tarefas, permite **salvar
 ## 📦 Como usar
 
 ### 1. Clone o repositório
-```bash
+
 git clone https://github.com/diogoferreiraa/todo-list.git
 cd todo-list
