@@ -1,10 +1,13 @@
-# 🗂️ Estrutura do Projeto
+# 📁 Estrutura do Projeto
 
+```
 todo-list/
 ├── index.html       # Estrutura da aplicação
 ├── style.css        # Estilização moderna e responsiva
 ├── script.js        # Funcionalidades com JavaScript
 └── README.md        # Documentação do projeto
+
+```
 
 # 📝 To-Do List – Lista de Tarefas com Exportação para Excel
 
