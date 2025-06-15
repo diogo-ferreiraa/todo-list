@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Minha Lista de Tarefas</h1>
+    <div class="input-container">
+      <div class="input-container">
+        <input type="text" id="task-input" placeholder="Digite uma nova tarefa..." />
+        <button id="add-task-btn">Adicionar</button>
+        <button id="export-btn">Exportar para Excel</button>
+      </div>
+    </div>
+    <ul id="task-list"></ul>
+    <footer>
+      <p id="task-counter">0 tarefas pendentes</p>
+    </footer>
+  </div>
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
