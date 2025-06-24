@@ -69,14 +69,14 @@ function renderTasks() {
 // Atualizar contador de tarefas pendentes
 function updateCounter() {
   const pending = tasks.filter(task => !task.completed).length;
-  taskCounter.textContent = `${pending} tarefa(s) pendente(s)`;
+  taskCounter.textContent = `${pending} itens(s) pendente(s)`;
 }
 
 const exportBtn = document.getElementById("export-btn");
 
 exportBtn.addEventListener("click", () => {
   if (tasks.length === 0) {
-    alert("Nenhuma tarefa para exportar.");
+    alert("Nenhuma lista para exportar.");
     return;
   }
 
@@ -90,8 +90,8 @@ exportBtn.addEventListener("click", () => {
   // Criar uma planilha
   const worksheet = XLSX.utils.json_to_sheet(data);
   const workbook = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(workbook, worksheet, "Tarefas");
+  XLSX.utils.book_append_sheet(workbook, worksheet, "Lista");
 
   // Salvar o arquivo
-  XLSX.writeFile(workbook, "minha_lista_de_tarefas.xlsx");
+  XLSX.writeFile(workbook, "minha_lista_de_compras.xlsx");
 });
