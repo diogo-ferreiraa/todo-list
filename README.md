@@ -9,17 +9,17 @@ todo-list/
 
 ```
 
-# 📝 To-Do List – Lista de Tarefas com Exportação para Excel
+# 📝 To-Do List – Lista de Compras com Exportação para Excel
 
-Este é um projeto simples e funcional de uma **Lista de Tarefas (To-Do List)** desenvolvido com **HTML**, **CSS** e **JavaScript** puro.  
-Além das funcionalidades básicas de gerenciamento de tarefas, permite **salvar localmente** no navegador e **exportar a lista em formato Excel (.xlsx)**.
+Este é um projeto simples e funcional de uma **Lista de Compras (To-Do List)** desenvolvido com **HTML**, **CSS** e **JavaScript** puro.  
+Além das funcionalidades básicas de gerenciamento de lista, permite **salvar localmente** no navegador e **exportar a lista em formato Excel (.xlsx)**.
 
 ## 🚀 Funcionalidades
 
-✅ Adicionar nova tarefa  
-✅ Marcar tarefa como concluída  
-✅ Remover tarefa  
-✅ Contador de tarefas pendentes  
+✅ Adicionar novo item 
+✅ Marcar item como concluída  
+✅ Remover item
+✅ Contador de itens pendentes  
 ✅ Armazenamento local com `localStorage`  
 ✅ Exportação da lista para `.xlsx` (Excel) usando [SheetJS](https://sheetjs.com/)
 
